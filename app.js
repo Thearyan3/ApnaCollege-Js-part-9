@@ -2,5 +2,5 @@
 // (1). Selecting Elements 
 // --> (i). getElementById = Returns the element as an object or null (if not found).
 // for Ex: document.getElementById('mainImg');
-// --> (ii). getElementByClassName = Returns the element as an object or null (if not found).
+// --> (ii). getElementByClassName = Returns the element as an HTML Collection or null (if not found).
 // for Ex: document.getElementById('mainImg');
