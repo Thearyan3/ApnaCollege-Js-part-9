@@ -3,4 +3,7 @@
 // --> (i). getElementById = Returns the element as an object or null (if not found).
 // for Ex: document.getElementById('mainImg');
 // --> (ii). getElementByClassName = Returns the element as an HTML Collection or null (if not found).
-// for Ex: document.getElementById('mainImg');
+let smallImage = document.getElementsByClassName('oldimages');
+for(let i=0; i<smallImage.length; i++){
+    console.log(smallImage[i]);
+}
