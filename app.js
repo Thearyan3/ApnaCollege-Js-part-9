@@ -18,4 +18,7 @@
 //     console.log(`value of image no. ${i} is changed`);
 // } 
 
-// (iii). getElementByTagName - Returns the Elements as an HTML Collection and empty if not found.
+// (iii). getElementsByTagName - Returns the Elements as an HTML Collection and empty if not found.
+// For Ex : document.getElementsByTagName("p")[1].innerHTML = "abc". 
+// It means we are targeting the very first paragraph tag of the HTML Document and changing its innerHTML to abc.
+
