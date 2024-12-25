@@ -22,3 +22,8 @@
 // For Ex : document.getElementsByTagName("p")[1].innerHTML = "abc". 
 // It means we are targeting the very first paragraph tag of the HTML Document and changing its innerHTML to abc.
 
+// 2. Query Selectors 
+// (i). document.queryselector("p") //Selects the first p element.
+// (i). document.queryselector("#myid") //Selects the first element with id = myid.
+// (i). document.queryselector(".myclass") //Selects the first element with class = myclass.
+// (i). document.queryselectorAll("p") //Selects all p elements.
