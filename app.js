@@ -1,7 +1,10 @@
 // DOM(Document Object Model) --> The DOM represents a document with a logical tree.It allows us to manipulate/change WebPage content (HTML Elements).  
+
 // (1). Selecting Elements 
+
 // --> (i). getElementById = Returns the element as an object or null (if not found).
 // for Ex: document.getElementById('mainImg');
+
 // --> (ii). getElementByClassName = Returns the element as an HTML Collection or null (if not found).
 // 1). To print the image source on the console dir. 
 // let smallImage = document.getElementsByClassName('oldImg');
@@ -14,3 +17,5 @@
 //     smallImage[i].src = "creation_1.png";
 //     console.log(`value of image no. ${i} is changed`);
 // } 
+
+// (iii). getElementByTagName - Returns the Elements as an HTML Collection and empty if not found.
