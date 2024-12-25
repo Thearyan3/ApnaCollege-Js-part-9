@@ -27,3 +27,9 @@
 // (i). document.queryselector("#myid") //Selects the first element with id = myid.
 // (i). document.queryselector(".myclass") //Selects the first element with class = myclass.
 // (i). document.queryselectorAll("p") //Selects all p elements.
+
+
+// 3. Setting content in Objects using Properties and methods :- 
+// (i). innerText - shows the visible text contained in a Node.
+// (ii). textcontent - shows all the full text. 
+// (iii). innerHTML - shows all the full Markup. 
