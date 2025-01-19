@@ -27,7 +27,7 @@ head1.style.textDecoration = "underline";
 document.querySelector('body').append(head1);
 
 
-// Qs 1. - Create a p tag on the page and set its text to “ApnaCollegeDeltaPractice”, where Delta is bold.
+// Qs 5. - Create a p tag on the page and set its text to “ApnaCollegeDeltaPractice”, where Delta is bold.
 let para1 = document.createElement('p');
-para1.innerHTML = "ApnaCollege<b>Delta<b>Practice";
+para1.innerHTML = "ApnaCollege<b>Delta</b>Practice";
 document.querySelector('body').append(para1);
