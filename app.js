@@ -99,6 +99,13 @@ head3.classList.add("blue");
 cont.insertAdjacentElement('beforeend', head3);
 
 let div1 = document.createElement('div');
-div1.innerText = "Hey I'm red!";
-div1.classList.add = "black";
-cont.append("Hey I'm red");
+let head1 = document.createElement('h1');
+head1.innerText = "I'm in a div";
+let para1 = document.createElement('p');
+para1.innerText = "ME TOO";
+div1.classList.add("black");
+div1.insertAdjacentElement('afterbegin', head1);
+div1.insertAdjacentElement('beforeend', para1);
+cont.insertAdjacentElement('beforeend', div1);
+
+
