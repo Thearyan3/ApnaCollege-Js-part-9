@@ -14,20 +14,20 @@ btn.setAttribute('id', 'btn');
 input1.setAttribute('placeholder', 'username');
 
 
-// Qs 1. - Create a new input and button element on the page using JavaScript only. Set the text of button as "Click Me".
+// Qs 3. - Access the btn using the querySelector and button id. Change the button background color to blue and text color to white .
+document.querySelector('#btn').style.backgroundColor = "blue";
+document.querySelector('#btn').style.color = "white";
 
 
+// Qs 4. - Create an h1 element on the page and set its text to “DOMPractice” underlined. Change its color to purple.
+let head1 = document.createElement('h1');
+head1.innerText = "DOMPractice";
+head1.style.color = "purple";
+head1.style.textDecoration = "underline";
+document.querySelector('body').append(head1);
 
 
-
-
-
-
-
-
-
-
-
-
-// Qs 1. - Create a new input and button element on the page using JavaScript only. Set the text of button as "Click Me".
-// Qs 1. - Create a new input and button element on the page using JavaScript only. Set the text of button as "Click Me".
+// Qs 1. - Create a p tag on the page and set its text to “ApnaCollegeDeltaPractice”, where Delta is bold.
+let para1 = document.createElement('p');
+para1.innerHTML = "ApnaCollege<b>Delta<b>Practice";
+document.querySelector('body').append(para1);
