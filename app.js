@@ -85,3 +85,15 @@
 // (iii). an <div> with a black border and pink background color with the following elements inside of it: 
 // * another <h1> that says "I'm in a div"
 // * a <p> that says "ME TOO"
+
+let cont = document.querySelector('.box');
+console.log(cont);
+let para = document.createElement('p');
+para.style.color = "red";
+cont.append("Hey I'm red!");
+let head3 = document.createElement('p');
+head3.style.color = "red";
+cont.append("I'm blue h3!");
+let div1 = document.createElement('p');
+div1.style.color = "red";
+cont.append("Hey I'm red");
