@@ -87,13 +87,18 @@
 // * a <p> that says "ME TOO"
 
 let cont = document.querySelector('.box');
-console.log(cont);
+
 let para = document.createElement('p');
-para.style.color = "red";
-cont.append("Hey I'm red!");
-let head3 = document.createElement('p');
-head3.style.color = "red";
-cont.append("I'm blue h3!");
-let div1 = document.createElement('p');
-div1.style.color = "red";
+para.innerText = "Hey I'm red!";
+para.classList.add("red");
+cont.insertAdjacentElement('beforeend', para);
+
+let head3 = document.createElement('h3');
+head3.innerText = "Hey I'm red!";
+head3.classList.add("blue");
+cont.insertAdjacentElement('beforeend', head3);
+
+let div1 = document.createElement('div');
+div1.innerText = "Hey I'm red!";
+div1.classList.add = "black";
 cont.append("Hey I'm red");
